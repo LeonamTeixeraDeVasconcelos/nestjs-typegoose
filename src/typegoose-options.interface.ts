@@ -4,6 +4,7 @@ import { ConnectionOptions } from 'mongoose';
 
 export interface TypegooseConnectionOptions extends ConnectionOptions {
   connectionName?: string;
+  useNewUrlParser?: boolean;
 }
 
 export interface TypegooseModuleOptions {
